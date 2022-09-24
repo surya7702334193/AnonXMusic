@@ -7,12 +7,12 @@ from pyrogram import filters
 
 load_dotenv()
 
-API_ID = int(getenv("API_ID", ""))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("API_ID", "15660770"))
+API_HASH = getenv("API_HASH", "9009f8b7af803eaa814de62b44c2df6d")
 
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("BOT_TOKEN", "5066568639:AAH4aO6niCsSbic973wYxXx3jVKOQSpmql0")
 
-MONGO_DB_URI = getenv("MONGO_DB_URI", None)
+MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://ig_surya31:surya4193@cluster0.glwn5yr.mongodb.net/?retryWrites=true&w=majority")
 
 DURATION_LIMIT_MIN = int(
     getenv("DURATION_LIMIT", "90")
@@ -22,12 +22,12 @@ SONG_DOWNLOAD_DURATION = int(
     getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
 )
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", ""))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001544738135"))
 
-MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "ᴀɴᴏɴ ダ ᴍᴜsɪᴄ​")
+MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME", "Ig_surya31")
 
 OWNER_ID = list(
-    map(int, getenv("OWNER_ID", "1356469075").split())
+    map(int, getenv("OWNER_ID", "1490107955").split())
 )
 
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
@@ -85,7 +85,7 @@ TG_VIDEO_FILESIZE_LIMIT = int(
 )
 # https://www.gbmb.org/mb-to-bytes
 
-STRING1 = getenv("STRING_SESSION", None)
+STRING1 = getenv("STRING_SESSION", "BQAvJHv_nTWEwHJ3quwrUdutLqVEQ35HRBU2o--G78TlC6Yu1DUbMyjvm2x6hvVTxd4trN3_OkBWR3jSldnmJJ85-LR8qz4-QLUSdkozoODz_LosozSt8LfEVWkrb7nG8GpTz78eR4aUjfMooggyS_OHRo5SrCmGkISJutlk-gp7Ofp3BSYMqG04ELyoXWEBtkUUzjgMi15gjBffrq2fr_8EILE_fyVTGPr_CmYClodwpCGxbq673CF9Go4H66ziykPM3JWu6MtU74zudN9s2R0INmCSNK97cBX-ivBB7R8KJUaBX4OmifyApdFNKQcZL6-7mGOkkm4l7H-w5PSqAGZ8WNE-MwA")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
